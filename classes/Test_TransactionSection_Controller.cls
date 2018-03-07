@@ -3,6 +3,9 @@ public class Test_TransactionSection_Controller {
     
     
     @isTest
+	/*
+		@Method name : myTest
+	*/
     public static void myTest(){
         MC_Settings__c objSetting = new MC_Settings__c(Name = 'MC Auth-1',ClientId__c='bemyues1u2mvck440asxfgth', ClientSecret__c='Qh25jPBDeLvUJ6di4VDb8AQH', ApiToken__c='7RK9zSjMIaglz3oyGsztLIeS');
 		insert objSetting;
